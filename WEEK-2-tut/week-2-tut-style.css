@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(55, 50, 62);
+
+}
+li {
+    font-weight: bold;
+    text-align: left;
+    list-style: disc;
+}
+table,
+th,td {
+    border: 0px solid rgb(3, 25, 39);
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 12px;
+    margin-left: auto;
+    margin-right: auto;  
+    text-align: center;
+    background-color: rgb(227, 227, 227);
+}
+.heading {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.name {
+    font-size: 25px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-bottom: 55px;
+}
+.head{
+    margin-top: 0%;
+    text-align: left;
+    font-weight: bold;
+    font-size: large;
+}
+.Lane-Swim{
+    background-color: rgb(73, 190, 194);
+}
+.Public-Swim{
+    background-color: rgb(7, 205, 153);
+}
+.Swim-Club {
+    background-color: rgb(251, 133, 0);
+}
+.Swim-Fit {
+    background-color: 	rgb(22, 138, 173);
+}
+.parents {
+    background-color: rgb(33, 158, 188);
+}
+.closed {
+    background-color: rgb(255, 183, 3);
+}
+.day-time {
+    background-color: rgb(188, 180, 193);
+}
