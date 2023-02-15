@@ -1,9 +1,59 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
 .top_links {
     padding: 15px;
 
 }
 .Top-section {
+    position: relative;
     margin-left: auto;
     margin-right: 500px;
     padding: 20px;
+    background-color: bisque;
+    margin-right: 0 ;
+    font-size: 25px;
+}
+.title{
+    background-color: brown;
+    padding: 10px;
+    width: 285px;
+    border-radius: 8px;
+}
+.Information {
+    padding-left: 25px;
+}
+h2{
+    font-size: 30px;
+
+}
+dl{
+    background-color: rgb(124, 169, 130);
+    padding: 15px;
+    width: 550px;
+    border-radius: 6px;
+}
+dt{
+    font-size: 18px;
+    font-weight: bold;
+}
+dd {
+    font-size: 18px;
+    width: 500px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+/* a:hover{
+    color: red;
+    transition: 0.5ms;
+
+} */
+.ruler {
+    height: 5px;
+    background-color: red;
+    border-width: 0;
+}
+.email{
+    inset-inline: initial   ;
 }
