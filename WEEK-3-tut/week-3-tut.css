@@ -13,9 +13,33 @@ body {
     margin-right: 500px;
     padding: 20px;
     background-color: bisque;
-    margin-right: 0 ;
     font-size: 25px;
+    border-radius: 5px;
 }
+.button {
+    font-size: 20px;
+    background-color: black;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: rgb(43, 150, 226);
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    cursor: pointer;
+    box-shadow: 0 5px #666;
+    transition: background-color 0.4s, padding 1.4s;
+}
+.button:hover {
+    background-color: greenyellow;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.button:active {
+    opacity: 0.7;
+    background-color: #3e8e41;
+    box-shadow: 0 5px rgba(102, 102, 102, 0);
+    transform: translate(0px, 4px);
+  }
 .title{
     background-color: rgb(119, 141, 169);
     padding: 10px;
@@ -32,7 +56,12 @@ body {
     border-radius: 6px;
 }
 h2{
+    margin-top: 0   ;
     font-size: 30px;
+    background-color: rgb(124, 169, 130);
+    padding: 15px;
+    width: 520px;
+    border-radius: 6px;
 
 }
 dl{
@@ -57,7 +86,26 @@ a{
 a:hover{
     color: rgb(255, 20, 105);
     transition: 0.2s;
-    cursor: v   ;
+    cursor: pointer ;
+
+}
+.BTT {
+    text-align: center;
+    background-color: beige;
+    width: 200px;
+    border-radius: 7px;
+    padding: 5px;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    box-shadow: 0 5px #666;
+    transition: background-color 0.4s, padding 1.4s;
+}
+.BTT:active {
+    opacity: 0.7;
+    background-color: #893e8e;
+    box-shadow: 0 5px rgba(102, 102, 102, 0);
+    transform: translate(0px, 4px);
 
 }
 .ruler {
@@ -66,5 +114,5 @@ a:hover{
     border-width: 0;
 }
 .email{
-    inset-inline: initial   ;
+    inset-inline: initial;
 }
