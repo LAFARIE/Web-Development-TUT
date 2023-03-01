@@ -10,39 +10,63 @@
   <body>
     <h1>University Registration</h1>
     <section class="sect_1">
+      <h2>Your Details</h2>
       <form action="">
-        <label for="fname">First name:</label>
-        <input type="text" placeholder="Enter your first name" /><br />
-        <label for="surname">Surname:</label>
-        <input type="text" placeholder="Enter your surname" /><br />
-        <label for="email">Email Address:</label>
-        <input type="email" placeholder="Enter your email" /><br />
-        <label for="password">Password:</label>
-        <input type="password" placeholder="Enter your password" />
+        <div>
+          <label for="fname">First name:</label>
+          <input type="text" placeholder="Enter your first name" />
+        </div>
+        <br />
+        <div>
+          <label for="surname">Surname:</label>
+          <input type="text" placeholder="Enter your surname" />
+        </div>
+        <br />
+        <div>
+          <label for="email">Email Address:</label>
+          <input type="email" placeholder="Enter your email" />
+        </div>
+        <br />
+        <div>
+          <label for="password">Password:</label>
+          <input type="password" placeholder="Enter your password" />
+        </div>
       </form>
     </section>
     <br />
     <section class="sect_2">
-      <p>Level:</p>
+      <h2>Level:</h2>
       <br />
       <form action="">
-        <label for="undergrad">Undergraduate</label>
-        <input type="radio" /><br />
-        <label for="postgrad">Postgraduate</label>
-        <input type="radio" /><br />
-        <label for="comment">Any comment:</label>
-        <textarea name="comment" id="" cols="30" rows="-100"></textarea><br />
-        <label for="course"> Course</label>
-        <select name="Degrees" id="">
-          <option value="Computer Science">Computer Science</option>
-          <option value="Software Engineering">Software Engineering</option>
-          <option value="Data Science and AI">
-            Data Science and AI
-          </option></select
-        ><br />
-        <label for="T&C">Terms and Conditions</label>
-        <input type="checkbox" />
+        <div>
+          <label for="undergrad">Undergraduate</label>
+          <input type="radio" /><br />
+          <label for="postgrad">Postgraduate</label>
+          <input type="radio" /><br />
+        </div>
+        <div>
+          <label for="comment">Any comment:</label>
+          <textarea name="comment" id="" cols="30" rows="-100"></textarea>
+        </div>
+        <br />
+        <div>
+          <label for="course"> Course</label>
+          <select name="Degrees" id="">
+            <option value="Computer Science">Computer Science</option>
+            <option value="Software Engineering">Software Engineering</option>
+            <option value="Data Science and AI">Data Science and AI</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <label for="T&C">Terms and Conditions</label>
+          <input type="checkbox" />
+        </div>
       </form>
+    </section>
+    <section class="sect_3">
+      <button inputmode="submit">Submit</button>
+      <input type="reset" />
     </section>
   </body>
 </html>

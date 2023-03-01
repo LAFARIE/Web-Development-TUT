@@ -1,14 +1,17 @@
 body {
     background-color: rgb(229, 253, 203);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-/* form  { display: table;
+
+div {
+    margin-bottom: 15px;
+    font-size: larger;
+
 }
-p { 
-    display: table-row;
+
+label {
+    display: inline-block;
+    width: 200px;
+    align-items: center;
+    
 }
-label { 
-    display: table-cell;
-}
-input { 
-    display: table-cell;
-} */
